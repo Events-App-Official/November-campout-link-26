@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Join Event</title>
+
+  <script>
+    window.onload = () => {
+      window.location.href = "events://yourEvent/698bee286f3b8c6ac46aab32";
+
+      setTimeout(() => {
+        window.location.href =
+          "https://play.google.com/store/apps/details?id=com.yourapp.package";
+      }, 2000);
+    };
+  </script>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0f0f0f;
+      color: white;
+      font-family: system-ui, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h2>Opening your event…</h2>
+    <p>If nothing happens, make sure the app is installed.</p>
+  </div>
+</body>
+</html>
